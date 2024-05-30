@@ -84,6 +84,15 @@ button {
 .container.width60 {
     width: 60%;
 }
+.content.top {
+    margin-top: 100px;
+}
+input {
+    margin: 50px 0px;
+}
+#annuale {
+    margin-left: 100px;
+}
 .col-33 {
     width: 33%;
     height: 700px;
@@ -151,11 +160,28 @@ button {
 }
 .col-60 {
     width: 60%;
-    
     background-color: green;
 }
 .col-40 {
     width: 40%;
-    height: 400px;
     background-color: yellowgreen;
+}
+.col-40 h3, p, button {
+    margin: 30px 10px;
+}
+.col-60 img {
+    height: 100%;
+}
+/*layout a 6 card*/
+.col33 {
+    width: calc(33% - 10px);
+    height: 450px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(255, 137, 255);
+    border: 1px solid black;
+}
+
+.contimg img {
+    width: 100%;
 }
