@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
 /*header*/
 .container-header {
     width: 100%;
@@ -28,11 +36,30 @@
     line-height: 80px;
 }
 /*main*/
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+/*jumbotron*/
+.col.jumbotron {
+    background-color: red;
+    border: 1px solid black;
+    margin: auto;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
+.col.jumbotron.h1 {
+    width: 80%;
+    height: 150px;
 }
+.col.jumbotron.text, .col.jumbotron.img {
+    height: 300px;
+    width: 40%;
+}
+.col.jumbotron.text {
+    margin-left: 10%;
+}
+.col.jumbotron.img {
+    margin-right: 10%;
+}
+.content.jumbotron.text button {
+    margin: 20px 0px;
+}
+.content.jumbotron.text i {
+    margin-top: 20px;
+}
+
