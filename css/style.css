@@ -45,6 +45,7 @@
 .col.jumbotron.h1 {
     width: 80%;
     height: 150px;
+    margin-top: 90px;
 }
 .col.jumbotron.text, .col.jumbotron.img {
     height: 300px;
@@ -55,6 +56,7 @@
 }
 .col.jumbotron.img {
     margin-right: 10%;
+    position: relative;
 }
 .content.jumbotron.text button {
     margin: 20px 0px;
@@ -62,4 +64,10 @@
 .content.jumbotron.text i {
     margin-top: 20px;
 }
+.content.jumbotron.img img {
+    height: 300px;
+    position: absolute;
+    top: 40px;
+}
+
 
