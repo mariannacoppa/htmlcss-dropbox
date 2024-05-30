@@ -4,12 +4,31 @@
     box-sizing: border-box;
 }
 /*header*/
-header {
-    height: 80px;
+.container-header {
+    width: 100%;
+    margin: 0 auto;
     background-color: yellow;
 }
+.col-50 {
+    width: 50%;
+    background-color: orange;
+}
+.content.header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.content.header.right {
+    justify-content: flex-end;
+}
+.menu {
+    background-color: red;
+    width: 30px;
+    margin: 0px 30px;
+    line-height: 80px;
+}
 /*main*/
-.contaniner {
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
