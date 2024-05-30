@@ -144,3 +144,18 @@ button {
 .gbig p {
     margin-top: 70px;
 }
+/*due colonne*/
+.col-60, .col-40 {
+    height: 400px;
+    margin: 100px auto;
+}
+.col-60 {
+    width: 60%;
+    
+    background-color: green;
+}
+.col-40 {
+    width: 40%;
+    height: 400px;
+    background-color: yellowgreen;
+}
