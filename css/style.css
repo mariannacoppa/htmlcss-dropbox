@@ -85,9 +85,9 @@ button {
     width: 60%;
 }
 .content.top {
-    margin-top: 100px;
+    margin: 100px 0px;
 }
-.content.top input, a {
+.content.top input, .content.top a {
     margin: 50px 0px;
 }
 #annuale {
@@ -165,22 +165,26 @@ button {
 .gbig p {
     margin-top: 70px;
 }
-/*due colonne*/
-.col-60, .col-40 {
+/*due colonne */
+.col-40.unbox button {
+    position: absolute;
+    right: 0%;
+    color: black;
+    background-color: #FFFFFF;
+}
+.boxandimg {
     height: 400px;
+}
+.col-60, .col-40 {
     margin: 100px auto;
 }
 .col-60 {
     width: 60%;
-    background-color: green;
 }
 .col-40 {
     width: 40%;
-    background-color: yellowgreen;
+    position: relative;
 }
-/*.col-40 h3, p, button {
-    margin: 30px 10px;
-}*/
 .col-60 img {
     height: 100%;
 }
@@ -211,16 +215,39 @@ button {
 .square-sm {
     width: calc(33vw / 2);
     height: calc(33vw / 2);
+    position: relative;
+}
+.square-sm img {
+    width: 150px;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #a {
-    background-color: purple;
+    background-color: #A2D39B;
+    border: 15px solid #D1E9CD;
 }
 #b {
-    background-color: yellow;
+    background-color: #61082B;
 }
 #c {
-    background-color: aqua;
+    background-color: #0093CE;
 }
 #d {
-    background-color: red;
+    background-color: #FF1C1C;
 }
+#e {
+    background-color: #D5001F;
+}
+#f {
+    background-color: #B4D0E7;
+}
+#g {
+    background-color: #0D2481;
+}
+#h {
+    background-color: #FFD830;
+}
+/*titolo e testo*/
