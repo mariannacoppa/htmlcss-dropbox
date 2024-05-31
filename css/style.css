@@ -170,12 +170,6 @@ button {
     width: 100%;
     margin: 0 auto;
 }
-.col-60.unbox {
-    background-color: #A2D39B;
-}
-.col-40.unbox {
-    background-color: #61082B;
-}
 .col-40.unbox button {
     position: absolute;
     right: 0%;
@@ -264,6 +258,14 @@ button {
     background-color: #FFD830;
 }
 /*FAQ*/
-.col.top {
+.col.FAQ {
     width: 100%;
+}
+.content.FAQ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    height: 30px;
+    line-height: 30px;
 }
