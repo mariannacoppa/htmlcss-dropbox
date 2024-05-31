@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container:not(.container.jumbotron) {
+.container:not(.container.jumbotron, .maxw) {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -40,7 +40,7 @@ button {
     margin: 0px 30px;
     line-height: 80px;
 }
-/*main*/
+/*MAIN*/
 /*jumbotron*/
 .container.jumbotron {
     background-color: #B4D0E7;
@@ -87,7 +87,7 @@ button {
 .content.top {
     margin-top: 100px;
 }
-input {
+.content.top input, a {
     margin: 50px 0px;
 }
 #annuale {
@@ -113,8 +113,16 @@ input {
 }
 .up {
     width: 100%;
-    height: 350px;
+    height: 300px;
     background-color: rgb(89, 224, 157);
+}
+.up hr {
+    width: 30%;
+    color: gray;
+    font-size: 1px;
+}
+.up button, p, hr {
+    margin: 10px;
 }
 .down {
     width: 100%;
@@ -125,6 +133,10 @@ input {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    margin: 10px;
+}
+.punti li {
+    margin: 3px;
 }
 .col-bottom {
     width: 100%;
@@ -166,9 +178,9 @@ input {
     width: 40%;
     background-color: yellowgreen;
 }
-.col-40 h3, p, button {
+/*.col-40 h3, p, button {
     margin: 30px 10px;
-}
+}*/
 .col-60 img {
     height: 100%;
 }
@@ -181,7 +193,34 @@ input {
     background-color: rgb(255, 137, 255);
     border: 1px solid black;
 }
-
 .contimg img {
     width: 100%;
+}
+/*quadrati*/
+.container.maxw {
+    width: 100vw;
+    margin: 0 auto;
+}
+.square33 {
+    width: 33vw;
+    height: 33vw;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square-sm {
+    width: calc(33vw / 2);
+    height: calc(33vw / 2);
+}
+#a {
+    background-color: purple;
+}
+#b {
+    background-color: yellow;
+}
+#c {
+    background-color: aqua;
+}
+#d {
+    background-color: red;
 }
