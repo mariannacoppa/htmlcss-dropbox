@@ -166,11 +166,24 @@ button {
     margin-top: 70px;
 }
 /*due colonne */
+.container.unbox {
+    width: 100%;
+    margin: 0 auto;
+}
+.col-60.unbox {
+    background-color: #A2D39B;
+}
+.col-40.unbox {
+    background-color: #61082B;
+}
 .col-40.unbox button {
     position: absolute;
     right: 0%;
     color: black;
     background-color: #FFFFFF;
+}
+.teal {
+    background-color: #B4D0E7;
 }
 .boxandimg {
     height: 400px;
@@ -250,4 +263,7 @@ button {
 #h {
     background-color: #FFD830;
 }
-/*titolo e testo*/
+/*FAQ*/
+.col.top {
+    width: 100%;
+}
