@@ -213,15 +213,15 @@ button {
     margin: 0 auto;
 }
 .square33 {
-    width: 33vw;
-    height: 33vw;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     background-color: #F5F5F5;
     display: flex;
     flex-wrap: wrap;
 }
 .square-sm {
-    width: calc(33vw / 2);
-    height: calc(33vw / 2);
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
     position: relative;
 }
 .square-sm img {
@@ -268,4 +268,31 @@ button {
     list-style-type: none;
     height: 30px;
     line-height: 30px;
+}
+/*FOOTER*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+}
+.footer .row {
+    justify-content: center;
+}
+.col-bottom-footer {
+    width: 75%;
+}
+.col-footer {
+    width: calc(75% / 5);
+    height: 300px;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: purple;
+}
+.content-footer li {
+    list-style-type: none;
+    font-size: 10px;
+    margin: 10px 0;
+}
+.cont-bottom-footer hr {
+    width: 15%;
 }
