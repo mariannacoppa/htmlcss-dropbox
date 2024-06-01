@@ -223,11 +223,12 @@ li, p, h4, .gray {
 /*layout a 6 card*/
 .col33 {
     width: calc(33% - 10px);
-    height: 450px;
+    height: 400px;
     margin: 5px;
     padding: 10px;
-    background-color: rgb(255, 137, 255);
-    border: 1px solid black;
+}
+.col33 h4, .col33 p {
+    margin: 20px 5px;
 }
 .contimg img {
     width: 100%;
