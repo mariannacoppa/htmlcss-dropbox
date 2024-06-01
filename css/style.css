@@ -64,6 +64,10 @@ hr {
     align-self: center;
 }
 /*MAIN*/
+.mainandfooter {
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+}
 /*jumbotron*/
 .container.jumbotron {
     background-color: #B4D0E7;
