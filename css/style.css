@@ -337,10 +337,8 @@ footer {
 }
 .col-footer {
     width: calc(75% / 5);
-    height: 300px;
+    height: 200px;
     padding: 20px;
-    border: 1px solid white;
-    background-color: purple;
 }
 .content-footer li {
     list-style-type: none;
@@ -349,4 +347,5 @@ footer {
 }
 .cont-bottom-footer hr {
     width: 15%;
+    margin: 30px 0;
 }
