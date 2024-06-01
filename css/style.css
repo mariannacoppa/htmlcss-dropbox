@@ -17,11 +17,20 @@ button {
     background-color: #0061FF;
     padding: 10px;
 }
-button, a {
+button, a, input {
     cursor: pointer;
 }
 h1 {
     font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 20px;
+}
+li, p, h4, .gray {
+    font-size: 12px;
 }
 /*header*/
 .container-header {
@@ -95,7 +104,7 @@ h1 {
     width: 60%;
 }
 .content.top {
-    margin: 100px 0px;
+    margin-top: 100px;
 }
 .content.top input, .content.top a {
     margin: 50px 0px;
@@ -105,8 +114,7 @@ h1 {
 }
 .col-33 {
     width: 33%;
-    height: 700px;
-    background-color: yellow;
+    height: 660px;
     margin: auto;
     padding: 2%;
 }
@@ -119,25 +127,31 @@ h1 {
     height: 40px;
     width: 100%;
     border-bottom: 2px solid gray;
-    background-color: aquamarine;
 }
 .up {
     width: 100%;
-    height: 300px;
-    background-color: rgb(89, 224, 157);
+    height: 210px;
 }
-.up hr {
+.down hr {
     width: 30%;
     color: gray;
     font-size: 1px;
+    margin: 20px 10px;
 }
 .up button, .up p, .up hr {
     margin: 10px;
 }
+#contattaci {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 50px;
+}
+.gray {
+    color: gray;
+}
 .down {
     width: 100%;
-    height: 270px;
-    background-color: blue;
+    height: 360px;
 }
 .punti {
     display: flex;
@@ -169,7 +183,7 @@ h1 {
     padding-right: 20px;
     background-color: violet;
 }
-.gbig h5, h4 {
+.gbig h5 {
     margin-bottom: 20px;
 }
 .gbig p {
