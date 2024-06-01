@@ -174,20 +174,18 @@ li, p, h4, .gray {
 .general {
     display: flex;
     flex-direction: row;
-    background-color: pink;
     padding: 20px;
 }
 .gbig {
-    width: 600px;
+    width: 490px;
     height: 160px;
     padding-right: 20px;
-    background-color: violet;
 }
-.gbig h5 {
-    margin-bottom: 20px;
+.gbig h4 {
+    margin: 20px 0;
 }
 .gbig p {
-    margin-top: 70px;
+    margin-top: 40px;
 }
 /*due colonne */
 .container.unbox {
