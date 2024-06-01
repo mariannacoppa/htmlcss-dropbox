@@ -214,6 +214,9 @@ li, p, h4, .gray {
     width: 40%;
     position: relative;
 }
+.col-40.boxandimg p, .col-40.boxandimg button {
+    margin: 20px 0px;
+}
 .col-60 img {
     height: 100%;
 }
