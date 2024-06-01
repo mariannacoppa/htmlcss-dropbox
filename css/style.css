@@ -298,9 +298,14 @@ hr {
 .square33.center img, .square33.center hr, .square33.center p {
     margin: 20px;
 }
+/*titolo e testo*/
+.col-60.unbox h3 {
+    color: #61082B;
+}
 /*FAQ*/
 .col.FAQ {
     width: 100%;
+    margin: 100px auto;
 }
 .content.FAQ {
     display: flex;
@@ -309,6 +314,14 @@ hr {
     list-style-type: none;
     height: 30px;
     line-height: 30px;
+}
+.col.FAQ hr {
+    width: 100%;
+    margin: 20px 0px;
+}
+.content.FAQ ul, .content.FAQ hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /*FOOTER*/
 footer {
