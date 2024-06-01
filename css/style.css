@@ -32,6 +32,9 @@ h3 {
 li, p, h4, .gray {
     font-size: 12px;
 }
+hr {
+    width: 30%;
+}
 /*header*/
 .container-header {
     width: 100%;
@@ -133,7 +136,6 @@ li, p, h4, .gray {
     height: 210px;
 }
 .down hr {
-    width: 30%;
     color: gray;
     font-size: 1px;
     margin: 20px 10px;
@@ -249,6 +251,9 @@ li, p, h4, .gray {
     flex-wrap: wrap;
     margin-top: 100px;
 }
+.square33.center {
+    flex-direction: column;
+}
 .square-sm {
     width: calc(100vw / 6);
     height: calc(100vw / 6);
@@ -286,6 +291,12 @@ li, p, h4, .gray {
 }
 #h {
     background-color: #FFD830;
+}
+#logoblack {
+    width: 200px;
+}
+.square33.center img, .square33.center hr, .square33.center p {
+    margin: 20px;
 }
 /*FAQ*/
 .col.FAQ {
