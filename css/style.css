@@ -106,7 +106,7 @@ li, p, h4, .gray {
 .content.top {
     margin-top: 100px;
 }
-.content.top input, .content.top a {
+.content.top input, .content.top a, .content.top h2 {
     margin: 50px 0px;
 }
 #annuale {
@@ -233,6 +233,9 @@ li, p, h4, .gray {
 .contimg img {
     width: 100%;
 }
+#scopri {
+    padding: 40px 0px;
+}
 /*quadrati*/
 .container.maxw {
     width: 100vw;
@@ -244,6 +247,7 @@ li, p, h4, .gray {
     background-color: #F5F5F5;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 100px;
 }
 .square-sm {
     width: calc(100vw / 6);
