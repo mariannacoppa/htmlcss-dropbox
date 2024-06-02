@@ -35,7 +35,15 @@ li, p, h4, .gray {
 hr {
     width: 30%;
 }
+body {
+    overflow-x: hidden;
+}
 /*header*/
+header {
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
 .container-header {
     width: 100%;
     margin: 0 auto;
@@ -64,10 +72,6 @@ hr {
     align-self: center;
 }
 /*MAIN*/
-.mainandfooter {
-    height: calc(100vh - 80px);
-    overflow-y: auto;
-}
 /*jumbotron*/
 .container.jumbotron {
     background-color: #B4D0E7;
