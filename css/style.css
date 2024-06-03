@@ -35,9 +35,9 @@ li, p, h4, .gray {
 hr {
     width: 30%;
 }
-body {
+/*body {
     overflow-x: hidden;
-}
+}*/
 /*header*/
 header {
     position: sticky;
@@ -214,6 +214,7 @@ header {
 }
 .boxandimg {
     height: 400px;
+    padding: 20px;
 }
 .col-60, .col-40 {
     margin: 100px auto;
@@ -229,7 +230,7 @@ header {
     margin: 20px 0px;
 }
 .col-60 img {
-    height: 100%;
+    width: 100%;
 }
 /*layout a 6 card*/
 .col33 {
@@ -249,11 +250,11 @@ header {
 }
 /*quadrati*/
 .container.maxw {
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
 }
 .square33 {
-    width: calc(100vw / 3);
+    width: calc(100% / 3);
     height: calc(100vw / 3);
     background-color: #F5F5F5;
     display: flex;
@@ -264,7 +265,7 @@ header {
     flex-direction: column;
 }
 .square-sm {
-    width: calc(100vw / 6);
+    width: calc(100% / 2);
     height: calc(100vw / 6);
     position: relative;
 }
