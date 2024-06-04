@@ -16,9 +16,11 @@ button {
     color: white;
     background-color: #0061FF;
     padding: 10px;
+    border: none;
 }
 button:hover, .unbox button:hover {
     background-color: #0093CE;
+    transition: 0.4s;
 }
 button, a, input {
     cursor: pointer;
@@ -111,6 +113,21 @@ header {
     position: absolute;
     top: 0px;
 }
+.fa-solid.fa-arrow-down.fa-2xl:hover {
+    color: #0061FF;
+}
+.content.jumbotron.text:hover .visible {
+    display: none;
+}
+.content.jumbotron.text:hover .hidden {
+    display: block;
+}
+.visible {
+    display: block;
+}
+.hidden {
+    display: none;
+}
 /*3 colonne + colonna singola sotto*/
 .container.width60 {
     width: 60%;
@@ -125,13 +142,14 @@ header {
     margin-left: 100px;
 }
 .col-33 {
-    width: 33%;
-    height: 660px;
+    width: calc(100% / 3);
     margin: auto;
     padding: 2%;
+    background-color: yellow;
 }
 .content-33 {
     border: 2px solid gray;
+    min-height: 600px;
 }
 .text-top {
     text-align: center;
@@ -140,9 +158,12 @@ header {
     width: 100%;
     border-bottom: 2px solid gray;
 }
+.text-in {
+    padding: 10px;
+}
 .up {
     width: 100%;
-    height: 210px;
+    min-height: 210px;
 }
 .down hr {
     color: gray;
@@ -165,7 +186,6 @@ header {
 }
 .down {
     width: 100%;
-    height: 360px;
 }
 .punti {
     display: flex;
@@ -180,7 +200,6 @@ header {
     width: 100%;
 }
 .content-bot {
-    width: 100%;
     height: 250px;
     margin: 2%;
     border: 2px solid gray;
