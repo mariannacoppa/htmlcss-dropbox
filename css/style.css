@@ -133,9 +133,24 @@ header {
     width: 60%;
 }
 .content.top {
-    margin-top: 100px;
+    margin: 100px 0px 30px;
+    padding-left: 20px;
 }
-.content.top input, .content.top a, .content.top h2 {
+input {
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid gray;
+    transition: 0.2s all linear;
+}
+input:checked {
+    border: 5px solid blue;
+}
+label {
+    margin-right: 50px;
+}
+.content.top a, .content.top h2 {
     margin: 50px 0px;
 }
 #annuale {
@@ -145,7 +160,6 @@ header {
     width: calc(100% / 3);
     margin: auto;
     padding: 2%;
-    background-color: yellow;
 }
 .content-33 {
     border: 2px solid gray;
