@@ -18,7 +18,7 @@ button {
     padding: 10px;
     border: none;
 }
-button:hover, .unbox button:hover {
+button:hover {
     background-color: #0093CE;
     transition: 0.4s;
 }
@@ -365,8 +365,6 @@ label {
     flex-direction: row;
     justify-content: space-between;
     list-style-type: none;
-    height: 30px;
-    line-height: 30px;
 }
 .col.FAQ hr {
     width: 100%;
@@ -375,6 +373,29 @@ label {
 .content.FAQ ul, .content.FAQ hr {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+input[type="checkbox"] {
+    display: none;
+}
+label[for^="title"] {
+    display: block;    
+    padding: 8px 22px;
+    margin: 0 0 1px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: ease 0.5s;
+}
+label[for^="title"]:hover {
+    background: #b4d0e7;
+}
+.content.accordion {
+    padding: 10px 25px;
+}
+input[type="checkbox"] + label[for^="title"] + .content.accordion {
+    display: none;
+}
+input[type="checkbox"]:checked + label[for^="title"] + .content.accordion {
+    display: block;
 }
 /*FOOTER*/
 footer {
